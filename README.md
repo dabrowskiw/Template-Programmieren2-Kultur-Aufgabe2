@@ -44,8 +44,8 @@ Das Parsen dieser Medikamentennamen soll in der Methode ```public static List<St
 
 Falls ein Eintrag in der Definitionszeile:
 
-* "Mutation Patterns" lautet, aber nicht das erste Element ist
-* Nicht das erste Element ist und nicht mit ``` GS"``` endet
+* das erste Element ist, aber nicht "Mutation Patterns" lautet 
+* nicht das erste Element ist und nicht mit ``` GS"``` endet
 
 * soll eine ```FileFormatException``` geworfen werden.
 
